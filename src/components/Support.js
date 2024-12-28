@@ -4,7 +4,7 @@ import { bebasNeue, inter } from "@/lib/fonts";
 
 export default function Support() {
   return (
-    <section className="bg-black text-white py-16">
+    <section className="bg-black text-white py-16" id="support">
       <div className="container mx-auto px-6">
         <h2 className={`text-6xl font-bold text-center text-amber-400 mb-8 ${bebasNeue.className}`}>
           Support Our Vision

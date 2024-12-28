@@ -25,7 +25,7 @@ export default function Team() {
   ];
 
   return (
-    <section className="bg-black text-white py-16">
+    <section className="bg-black text-white py-16" id="team">
       <div className="container mx-auto px-6">
         <h2 className={`text-6xl font-bold text-center text-amber-400 mb-12 ${bebasNeue.className}`}>
           The Team

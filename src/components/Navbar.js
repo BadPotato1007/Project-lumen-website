@@ -52,23 +52,23 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:items-center lg:space-x-6">
           <ul className="flex items-center space-x-6">
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="/about">
+              <Link className="text-xl text-amber-400 hover:text-white" href="#about">
                 About
               </Link>
             </li>
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="/team">
+              <Link className="text-xl text-amber-400 hover:text-white" href="#team">
                 Team
               </Link>
             </li>
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="/sponsors">
+              <Link className="text-xl text-amber-400 hover:text-white" href="#sponsors">
                 Sponsors
               </Link>
             </li>
             <li>
               <Link
-                href="/donate"
+                href="#support"
                 className="relative px-6 py-2 bg-amber-400 text-black font-bold rounded-sm text-xl hover:bg-white hover:scale-110 transition-transform duration-300 focus:outline-none focus:ring-4 focus:ring-amber-300 shadow-lg"
               >
                 Donate
@@ -106,22 +106,22 @@ export default function Navbar() {
           </div>
           <ul className="flex flex-col items-center space-y-4 px-6 py-4">
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="/about">
+              <Link className="text-xl text-amber-400 hover:text-white" href="#about">
                 About
               </Link>
             </li>
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="/team">
+              <Link className="text-xl text-amber-400 hover:text-white" href="#team">
                 Team
               </Link>
             </li>
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="/sponsors">
+              <Link className="text-xl text-amber-400 hover:text-white" href="#sponsors">
                 Sponsors
               </Link>
             </li>
             <li>
-              <Link className="text-xl bg-amber-400 text-black font-bold px-6 py-2 rounded-full shadow-lg hover:bg-white hover:scale-105 transition-transform duration-300" href="/donate">
+              <Link className="text-xl bg-amber-400 text-black font-bold px-6 py-2 rounded-full shadow-lg hover:bg-white hover:scale-105 transition-transform duration-300" href="#support">
                 Donate
               </Link>
             </li>
