@@ -9,6 +9,8 @@ import { bebasNeue } from "@/lib/fonts";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => setIsOpen(false);
+
   return (
     <nav className={`${bebasNeue.className} bg-black shadow-lg border-b-2 border-b-gray-700`}>
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
@@ -27,7 +29,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* hamburger menu btn */}
+        {/* Hamburger Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="lg:hidden text-amber-400 focus:outline-none z-10"
@@ -72,16 +74,16 @@ export default function Navbar() {
                 className="relative px-6 py-2 bg-amber-400 text-black font-bold rounded-sm text-xl hover:bg-white hover:scale-110 transition-transform duration-300 focus:outline-none focus:ring-4 focus:ring-amber-300 shadow-lg"
               >
                 Donate
-                {/* button glow effect */}
                 <span className="absolute inset-0 bg-amber-400 opacity-20 rounded-full blur-lg animate-pulse"></span>
               </Link>
             </li>
           </ul>
         </div>
 
-        {/* mobile menu */}
+        {/* mobile */}
         <div
-          className={`lg:hidden fixed top-0 left-0 w-full bg-black min-h-screen ${isOpen ? "block" : "hidden"} z-20`}
+          className={`lg:hidden fixed top-0 left-0 w-full bg-black min-h-screen ${isOpen ? "block" : "hidden"
+            } z-20`}
         >
           <div className="flex justify-end p-6">
             <button
@@ -106,22 +108,38 @@ export default function Navbar() {
           </div>
           <ul className="flex flex-col items-center space-y-4 px-6 py-4">
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="#about">
+              <Link
+                className="text-xl text-amber-400 hover:text-white"
+                href="#about"
+                onClick={handleLinkClick}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="#team">
+              <Link
+                className="text-xl text-amber-400 hover:text-white"
+                href="#team"
+                onClick={handleLinkClick}
+              >
                 Team
               </Link>
             </li>
             <li>
-              <Link className="text-xl text-amber-400 hover:text-white" href="#sponsors">
+              <Link
+                className="text-xl text-amber-400 hover:text-white"
+                href="#sponsors"
+                onClick={handleLinkClick}
+              >
                 Sponsors
               </Link>
             </li>
             <li>
-              <Link className="text-xl bg-amber-400 text-black font-bold px-6 py-2 rounded-full shadow-lg hover:bg-white hover:scale-105 transition-transform duration-300" href="#support">
+              <Link
+                className="text-xl bg-amber-400 text-black font-bold px-6 py-2 rounded-full shadow-lg hover:bg-white hover:scale-105 transition-transform duration-300"
+                href="#support"
+                onClick={handleLinkClick}
+              >
                 Donate
               </Link>
             </li>
