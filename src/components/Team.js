@@ -8,17 +8,17 @@ export default function Team() {
   const teamMembers = [
     {
       name: "Neerav Gupta",
-      title: "Lead designer and hardware expert passionate about clean energy.",
+      title: "Lead designer and hardware expert passionate about aerodynamics.",
       image: "https://i.ibb.co/khP1ZXB/20240609-151024.jpg",
     },
     {
       name: "Joel Joby",
-      title: "Sponsor relations and software expert shaping the project's feasibility.",
+      title: "Software expert helping configure autonomous capabilities",
       image: "https://i.ibb.co/87B5WmK/Screenshot-20241016-202349-Slack.jpg",
     },
     {
-      name: "Anonymous",
-      title: "Avionics expert with experience in efficient aerofoils.",
+      name: "Nikolai",
+      title: "Lead CAD designer and design specialist",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHUZ8YGjMZOeFMEFWaiMF4SBQ20kjYtD07CH9hY-NiaKe0gFE6M0bPXMuk&s=10"
     },
     // TODO: Add Dhruva here
