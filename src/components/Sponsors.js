@@ -16,7 +16,7 @@ export default function SponsorsSection() {
   return (
     <section className="bg-gray-900 text-white py-16" id="sponsors">
       <div className="container mx-auto px-6">
-        <h2 className={`text-6xl font-bold text-center text-amber-400 mb-12 ${bebasNeue.className}`}>
+        <h2 className={`text-6xl underline underline-offset-8 decoration-1 font-bold text-center text-amber-400 mb-12 ${bebasNeue.className}`}>
           Our Sponsors
         </h2>
 

@@ -32,7 +32,7 @@ export default function Team() {
   return (
     <section className="bg-black text-white py-16" id="team">
       <div className="container mx-auto px-6">
-        <h2 className={`text-6xl font-bold text-center text-amber-400 mb-12 ${bebasNeue.className}`}>
+        <h2 className={`text-6xl underline underline-offset-8 decoration-1 font-bold text-center text-amber-400 mb-12 ${bebasNeue.className}`}>
           The Team
         </h2>
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">

@@ -6,7 +6,7 @@ const PlaneSpecs = () => {
   return (
     <section id="plane-specs" className="bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white py-20">
       <div className="container mx-auto px-6 lg:px-12 text-left">
-        <h3 className={`text-5xl font-semibold text-amber-400 mb-8 ${bebasNeue.className}`}>Plane Specifications</h3>
+        <h3 className={`text-5xl underline underline-offset-8 decoration-1 font-semibold text-amber-400 mb-8 ${bebasNeue.className}`}>Plane Specifications</h3>
 
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border-collapse border border-gray-600">

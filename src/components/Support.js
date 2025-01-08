@@ -6,7 +6,7 @@ export default function Support() {
   return (
     <section className="bg-black text-white py-16" id="support">
       <div className="container mx-auto px-6">
-        <h2 className={`text-6xl font-bold text-center text-amber-400 mb-8 ${bebasNeue.className}`}>
+        <h2 className={`text-6xl underline underline-offset-8 decoration-1 font-bold text-center text-amber-400 mb-8 ${bebasNeue.className}`}>
           Support Our Vision
         </h2>
         <p className={`text-lg text-gray-300 max-w-3xl text-center mx-auto mb-8 ${inter.className}`}>

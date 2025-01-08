@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about" className="bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white py-20">
       <div className="container mx-auto px-6 lg:px-12 text-center lg:text-left">
-        <h2 className={`text-4xl md:text-5xl font-bold text-amber-400 mb-8 ${bebasNeue.className}`}>
+        <h2 className={`text-6xl underline underline-offset-8 decoration-1 font-bold text-amber-400 mb-8 ${bebasNeue.className}`}>
           About Us
         </h2>
 
