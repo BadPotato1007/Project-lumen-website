@@ -21,7 +21,12 @@ export default function Team() {
       title: "Lead CAD designer and design specialist",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHUZ8YGjMZOeFMEFWaiMF4SBQ20kjYtD07CH9hY-NiaKe0gFE6M0bPXMuk&s=10"
     },
-    // TODO: Add Dhruva here
+    {
+      name: "Dhruva Srinivas",
+      title: "Lead web designer and developer",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHUZ8YGjMZOeFMEFWaiMF4SBQ20kjYtD07CH9hY-NiaKe0gFE6M0bPXMuk&s=10"
+    },
+
   ];
 
   return (
