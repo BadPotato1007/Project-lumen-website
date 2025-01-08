@@ -5,6 +5,7 @@ import Team from "@/components/Team";
 import Sponsors from "@/components/Sponsors";
 import Support from "@/components/Support";
 import Footer from "@/components/Footer";
+import PlaneSpecs from "@/components/PlaneSpecs";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <PlaneSpecs />
       <Team />
       <Sponsors />
       <Support />
